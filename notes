@@ -1,0 +1,32 @@
+Database:
+
+entities:
+	place
+		location*
+		network*
+		
+	network:
+		cost
+		name
+		description
+		alcohol
+		smoking
+		age restrictions
+		discounts
+		types*
+		locations*
+		features*
+		
+	type:
+		name
+		
+	location:
+		city
+		number
+		street
+		building
+		link to google maps
+		
+	feature:
+		name
+
